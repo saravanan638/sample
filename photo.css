@@ -1,0 +1,117 @@
+body{
+height: 100vh;
+width: 100vw;
+display:flexbox ;
+background-image: url("img1.jpg");
+position: absolute;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+
+}
+header{
+    background-color: black;
+}
+
+ul{
+    margin-left: 1cm;
+    list-style-image: url("img\ 3.jpg");
+    list-style-position: outside;
+    
+}
+
+ul li{
+     color: greenyellow;
+}
+
+h2{
+    padding-bottom: 10px;
+    background: -webkit-linear-gradient(rgb(255, 0, 0),rgb(247, 247, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    background: -webkit-linear-gradient(gold,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.location h1{
+    padding-left: 1cm;
+    background: -webkit-linear-gradient(blue,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+big{
+    font-size: 1.5cm;
+    background: -webkit-linear-gradient(red,white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instagram i {
+    margin-left: 1.5cm;
+    margin-bottom: 2cm;
+    margin-top: 1cm;
+    color: #C13584;
+    float: left;
+}
+.facebook i {
+    margin-left: 1.5cm;
+    margin-bottom: 2cm;
+    margin-top: 1cm;
+    color:#2d61ca ;
+    float: left;
+}
+.whatsapp i {
+    margin-left: 7cm;
+    margin-bottom: 2cm;
+    margin-top: 1cm;
+    color: #2bd368;
+    float: left;
+}
+.email i{
+    padding-left: 1.5cm;
+    margin-bottom: 2cm;
+    margin-top: 1cm;
+    color: seablue;
+    float: left;
+
+}
+.pointing i { 
+    color: red;
+}
+.registration {
+    padding-left: 1cm;
+    padding-bottom: 1cm;
+    color: deeppink;
+}
+.registration td {
+    padding-top: 5px;
+}
+.registration input{
+    font-size: 20px;
+    font-family: roboto;
+    background: -webkit-linear-gradient(yellow,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.registration select{
+    font-size: 20px;
+    font-family: oswald;
+     background: -webkit-linear-gradient(yellow,red);
+     -webkit-background-clip:text;
+     -webkit-text-fill-color: transparent;
+}
+
+.address h2 {
+    color: red;
+    float: left;
+    padding-top: 4.5cm;
+    padding-right: 1cm;
+    
+}
